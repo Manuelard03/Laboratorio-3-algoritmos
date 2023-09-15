@@ -1,0 +1,1 @@
+(()=>{"use strict";class e extends HTMLElement{constructor(){super(),this.attachShadow({mode:"open"})}connectedCallback(){this.shadowRoot&&(this.shadowRoot.innerHTML="\n        <h1>Imagenes</h1>\n        <pixel-container></pixel-container>\n\n\n        ")}}customElements.define("app-container",e)})();
